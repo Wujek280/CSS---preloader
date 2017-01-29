@@ -1,5 +1,6 @@
-.animacja1 , .animacja2  {
-    animation-duration: 5s;
+.animacja1,
+.animacja2 {
+    animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-direction: normal;
 }
@@ -44,7 +45,7 @@
         ;
     }
     100% {
-        transform: translate(100px,100px) rotate(180deg) scale(1);
+        transform: translate(100px, 100px) rotate(180deg) scale(1);
         ;
     }
 }

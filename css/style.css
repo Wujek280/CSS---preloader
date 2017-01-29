@@ -8,6 +8,14 @@ body {
     background-color: deepskyblue;
 }
 
+h2 {
+        color: white;
+    font-size: 1.3em;
+    letter-spacing: 2px;  
+    text-align: center;
+    margin-top:75vh;
+}
+
 .mini {
     background-color: #fff;
     width: 20px;
@@ -25,8 +33,6 @@ body {
     
     position: absolute; 
     top: 50%; 
-    left: 50%; 
+    left: 49%; 
     transform: translateX(-50%) translateY(-50%);
     }
-
-.tor:last-child {}
