@@ -1,0 +1,50 @@
+.animacja1 , .animacja2  {
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+.animacja1{animation-name: nazwa1;}    
+.animacja2{animation-name: nazwa2;}    
+
+@keyframes nazwa1 {
+    0% {
+        transform: translate(0, 0) rotate(0deg) scale(1);
+    }
+    25% {
+        transform: translate(100px, 0) rotate(45deg) scale(2);
+    }
+    50% {
+        transform: translate(100px, 100px) rotate(90deg) scale(1);
+        ;
+    }
+    75% {
+        transform: translate(0, 100px) rotate(135deg) scale(2);
+        ;
+    }
+    100% {
+        transform: translate(0, 0) rotate(180deg) scale(1);
+        ;
+    }
+}
+
+@keyframes nazwa2 {
+    0% {
+        transform: translate(100px, 100px) rotate(0deg) scale(1);
+    }
+    25% {
+        transform: translate(0, 100px) rotate(45deg) scale(2);
+    }
+    50% {
+        transform: translate(0, 0) rotate(90deg) scale(1);
+        ;
+    }
+    75% {
+        transform: translate(100px, 0) rotate(135deg) scale(2);
+        ;
+    }
+    100% {
+        transform: translate(100px,100px) rotate(180deg) scale(1);
+        ;
+    }
+}

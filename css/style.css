@@ -5,13 +5,28 @@
 body {
     margin: 0;
     overflow: hidden;
-    background-color: steelblue;
+    background-color: deepskyblue;
 }
 
-.mini-square {
+.mini {
     background-color: #fff;
-    width: 50px;
-    height: 50px;
+    width: 20px;
+    height: 20px;
     position: absolute;
     display: inline-block;
+    line-height: 20px;
+    text-align: center;
 }
+
+.tor{
+    opacity: 0.9;
+    width: 100px;
+    height: 100px;
+    
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translateX(-50%) translateY(-50%);
+    }
+
+.tor:last-child {}
