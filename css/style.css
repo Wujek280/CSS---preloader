@@ -1,4 +1,5 @@
 * {
+    font-family: Arial;
     font-family: Lato;
 }
 
@@ -9,11 +10,11 @@ body {
 }
 
 h2 {
-        color: white;
+    color: white;
     font-size: 1.3em;
-    letter-spacing: 2px;  
+    letter-spacing: 3px;
     text-align: center;
-    margin-top:75vh;
+    margin-top: 75vh;
 }
 
 .mini {
@@ -26,13 +27,12 @@ h2 {
     text-align: center;
 }
 
-.tor{
+.tor {
     opacity: 0.9;
     width: 100px;
     height: 100px;
-    
-    position: absolute; 
-    top: 50%; 
-    left: 49%; 
+    position: absolute;
+    top: 50%;
+    left: 49%;
     transform: translateX(-50%) translateY(-50%);
-    }
+}
